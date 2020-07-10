@@ -51,6 +51,32 @@ export const productByHandle = (handle) => `
             originalSrc
             transformedSrc(maxWidth: 500, maxHeight: 400, crop: CENTER, preferredContentType: JPG)
           }
+          ... on Video {
+            sources {
+              format
+              height
+              mimeType
+              url
+              width
+            }
+          }
+          ... on ExternalVideo {
+            embeddedUrl
+          }
+          ... on Model3d {
+            sources {
+              format
+              mimeType
+              url
+            }
+          }
+          ... on MediaImage {
+            image {
+              altText
+              originalSrc
+              transformedSrc(maxWidth: 500, maxHeight: 400, crop: CENTER, preferredContentType: JPG)
+            }
+          }
         }
       }
       pageInfo {
