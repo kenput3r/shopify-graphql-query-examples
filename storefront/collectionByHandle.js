@@ -7,6 +7,7 @@
  * with up to 24 products displayed
  * @see {@link https://shopify.dev/docs/storefront-api/reference/queryroot?api[version]=2020-07 QueryRoot}
  * @see {@link https://shopify.dev/docs/storefront-api/reference/object/collectionconnection?api[version]=2020-07 CollectionConnection}
+ * @see {@link https://jsfiddle.net/kenput3r/hv54usg1/ JSFiddle} or {@link https://codepen.io/kenput3r/pen/jOWKOYb Codepen} to view the query in action
  */
 
 export const collectionByHandle = (handle) => `
