@@ -6,6 +6,7 @@
  * - use case: get all products filtered by a tag, product_type, vendor etc...
  * @see {@link https://shopify.dev/docs/storefront-api/reference/queryroot?api[version]=2020-07 QueryRoot}
  * @see {@link https://shopify.dev/docs/storefront-api/reference/object/product?api[version]=2020-07 Product}
+ * @see {@link https://jsfiddle.net/kenput3r/1Lbx2wa8/ JSFiddle} or {@link https://codepen.io/kenput3r/pen/zYrmYer Codepen} to view the query in action
  */
 
 export const products = (query) => `
